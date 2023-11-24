@@ -34,7 +34,6 @@ if __name__ == '__main__':
     tprint('''
     DOXBIN PASTE 
     PARSER''', font="small",space=1)
-    name_pasta=''
     while True:
         name_pasta=input('Введите название пасты которые вы хотите получить (пустота -  остановка цикла) : ').replace('_','')
         if name_pasta == '':
