@@ -36,6 +36,7 @@ if __name__ == '__main__':
     PARSER''', font="small",space=1)
     while True:
         name_pasta=input('Введите название пасты которые вы хотите получить (пустота -  остановка цикла) : ').replace('_','')
+        name_pasta.replace(' ','')
         if name_pasta == '':
             print('Все я тебя понял , оставливаю процесс. ')
             break
